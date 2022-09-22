@@ -1,0 +1,4 @@
+# this is non-minified test data
+jquery-typeahead.js source: very-long-line-length-in-source-file test/jestSetupFile.js line length is 2927 characters (>512)
+jquery-typeahead.js source: source-contains-prebuilt-javascript-object test/jestSetupFile.js line length is 2919 characters (>512)
+jquery-typeahead.js source: source-is-missing test/jestSetupFile.js line length is 2919 characters (>512)

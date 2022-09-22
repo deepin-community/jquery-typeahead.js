@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mkdir build
+	cp src/jquery.typeahead.js build
+	uglifyjs -o build/jquery.typeahead.min.js build/jquery.typeahead.js
+	pyscss -o build/jquery.typeahead.min.css src/jquery.typeahead.scss
+	pyscss -C -o build/jquery.typeahead.css src/jquery.typeahead.scss
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build
