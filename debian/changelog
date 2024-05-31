@@ -1,3 +1,18 @@
+jquery-typeahead.js (2.11.0+dfsg1-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Gordon Ball ]
+  * d/watch: new github tarball URL
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Launch uglify in build dir to fix sourcemap
+  * Update lintian overrides
+  * Fix license name and wrap long lines
+
+ -- Yadd <yadd@debian.org>  Thu, 25 Nov 2021 15:52:54 +0100
+
 jquery-typeahead.js (2.11.0+dfsg1-2) unstable; urgency=medium
 
   * Team upload
